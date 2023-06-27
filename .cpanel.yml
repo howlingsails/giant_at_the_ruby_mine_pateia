@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/howlcrvy/pateia_git_adventure
+    - /bin/cp -R _world $DEPLOYPATH
+    - /bin/cp -R empty_adventure $DEPLOYPATH
+    - /bin/cp -R Ruby_Mine $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp requirements.txt $DEPLOYPATH
+
